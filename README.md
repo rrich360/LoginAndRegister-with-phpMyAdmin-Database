@@ -11,11 +11,11 @@ In the register form you need to create a function (checkUsername) to check if t
 
 The following is a list of actions you will need to check when the user clicks on the register button:
 
-- if the username jtextfield is empty
-- if the password jtextfield is empty
-- if the retype_password text is equal to the password text
-- if the username already exists in the database using the "checkUsername" function
-- if the jDateChooser is empty
+- if the username field is empty
+- if the password field is empty
+- if the retype_password field matches the password field when creating new password.
+- if the username already exists in the database.
+- if the Date field (jDateChooser) is empty
 
 The login form is straight-forward;
 the user enter his or her login and password and clicks on the login button,
